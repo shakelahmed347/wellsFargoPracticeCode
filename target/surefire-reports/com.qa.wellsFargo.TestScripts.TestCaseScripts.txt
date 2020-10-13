@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.wellsFargo.TestScripts.TestCaseScripts
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 86.667 sec <<< FAILURE! - in com.qa.wellsFargo.TestScripts.TestCaseScripts
+verifiedPersonalModule(com.qa.wellsFargo.TestScripts.TestCaseScripts)  Time elapsed: 0.813 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<[]Personal> but was:<[selected
+]Personal>
+	at com.qa.wellsFargo.TestScripts.TestCaseScripts.verifiedPersonalModule(TestCaseScripts.java:35)
+
+verifiedBankingAndCreditFeature(com.qa.wellsFargo.TestScripts.TestCaseScripts)  Time elapsed: 2.827 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<Credit Card[]> but was:<Credit Card[s]>
+	at com.qa.wellsFargo.TestScripts.TestCaseScripts.verifiedBankingAndCreditFeature(TestCaseScripts.java:91)
+
+aboutWellsFargoHomepage(com.qa.wellsFargo.TestScripts.TestCaseScripts)  Time elapsed: 2.114 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[a]bout Wells Fargo> but was:<[A]bout Wells Fargo>
+	at com.qa.wellsFargo.TestScripts.TestCaseScripts.aboutWellsFargoHomepage(TestCaseScripts.java:123)
+
